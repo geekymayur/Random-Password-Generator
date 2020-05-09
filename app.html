@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- bootstarp files -->
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="./assets/bootstrap/jquery-3.4.1.slim.min.js"></script>
+
+</head>
+
+<body>
+<div >
+    <div class="col-sm-12 col-md-6 offset-md-3 col-lg-12 col-xl-6  sm-mt-2">
+
+        <div class="main-box">
+            <h5 class="text-center text-primary">RANDOM PASSWORD GENERATOR</h5>
+            <hr>
+            <marquee behavior="" direction="">
+                <label for="" class="text-danger">Note* We recommend you to Choose Strong Password.</label> 
+            </marquee>
+            <p style="font-size: 12px;">Set Lenght of Password between 5 to 18 Characters</p>
+            
+            <span class="float-left m-0">
+                <p class="badge badge-danger badge-large badge-pill p-2">Easy  </p></span> <span class="float-right m-0">
+                <p class="badge badge-success badge-large badge-pill p-2">Very Strong </p></span>
+            <input type="range" name="" id="length" min="5" max="18" class="form-control">
+            <label for="" class="text-center">See Password</label>
+            <div class="input-group">
+                <input type="text"  class="text-center form-control bg-warning text-dark" id="display">
+                <div class="input-group-append">
+                    <buton id="copypsw" class="btn btn-dark">Copy</buton>
+                </div>
+            </div>
+    
+            <br>
+    
+            <button class="btn btn-lg btn-secondary btn-block" onclick="generate()">Generate</button>
+        </div>
+    <pre class="text-center text-danger mt-3">App by GeekyMayur Labs</pre>
+    
+    
+    </div>
+</div>
+<!-- 
+    <div class="main-box">
+        <h5 class="text-center">Random Password Generator</h5>
+        <hr>
+        <label for="">Choose Dificulty</label> <br>
+        <span class="float-left">
+            <pre>Min-5</pre></span> <span class="float-right">
+            <pre>Max-18</pre></span>
+        <input type="range" name="" id="length" min="5" max="18" class="form-control">
+        <label for="" class="text-center">See Password</label>
+        <div class="input-group">
+            <input type="text"  class="text-center form-control bg-warning text-dark" id="display">
+            <div class="input-group-append">
+                <buton id="copypsw" class="btn btn-dark">Copy</buton>
+            </div>
+        </div>
+
+        <br>
+
+        <button class="btn btn-lg btn-primary btn-block" onclick="generate()">Generate</button>
+    </div>
+<pre class="text-center text-danger mt-3">A Software by GeekyMayur Labs</pre>
+ -->
+
+
+
+    <!-- scripts -->
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/bootstrap/popper.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
